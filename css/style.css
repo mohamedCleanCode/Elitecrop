@@ -190,4 +190,47 @@ body {
   background-color: var(--second-color);
   color: white;
 }
+.fetured-work .shuffle.row {
+  margin: 0;
+}
+.fetured-work .shuffle .col-sm {
+  padding: 0;
+}
+.fetured-work .shuffle img {
+  width: 100%;
+}
 /* End Fetured Work  */
+
+/* Start Cards  */
+.cards h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cards .container > h1 + p {
+  width: 80%;
+  margin: 0 auto 80px;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #6a6a6a;
+}
+.cards .card-title {
+  color: var(--first-color);
+  line-height: 1.7;
+  font-weight: bold;
+}
+.cards .card-subtitle {
+  font-weight: bold;
+}
+.cards .card-text {
+  color: #787878;
+}
+.cards .card .btn {
+  color: var(--second-color);
+  font-size: 17px;
+  padding: 0;
+  font-weight: bold;
+}
+/* End Cards  */
+
+
